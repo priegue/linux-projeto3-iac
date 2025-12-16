@@ -47,20 +47,16 @@ This challenge is inspired by the **Toshiro Shibakita** reference project, with 
 https://docs.docker.com/get-docker/
 
 ### Steps
-
-1) Build the image:
 ```bash
+1) Build the image:
 docker build -t nginx-php-app .
-
 2) Run the container:
 docker run -p 8080:80 nginx-php-app
-
 3) Access in your browser:
 http://localhost:8080
+```
 
----
-
-## ⚠️ Important notes
+# ⚠️ Important notes
 - Project intended for study and lab environments
 - Not recommended for production without security hardening
 - Useful for understanding Docker and microservices fundamentals
